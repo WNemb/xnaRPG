@@ -18,6 +18,10 @@ namespace xnaRPG
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
+        Texture2D myTexture;
+
+
+
 
         public Game1()
         {
@@ -45,7 +49,14 @@ namespace xnaRPG
         protected override void LoadContent()
         {
             // Create a new SpriteBatch, which can be used to draw textures.
+           
+            
             spriteBatch = new SpriteBatch(GraphicsDevice);
+            myTexture = Content.Load<Texture2D>(@"Backgrounds/street");
+
+
+
+
 
             // TODO: use this.Content to load your game content here
         }
@@ -82,6 +93,15 @@ namespace xnaRPG
         protected override void Draw(GameTime gameTime)
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
+
+            spriteBatch.Begin();
+            spriteBatch.Draw(
+                myTexture,
+                new Rectangle(10, 20, 50, 100),
+                new Rectangle(0, 0, 50, 100),
+                Color.White);
+            spriteBatch.End();
+
 
             // TODO: Add your drawing code here
 

@@ -1,0 +1,6 @@
+C:\xnaRPG\xnaRPG\bin\x86\Debug\xnaRPG.exe
+C:\xnaRPG\xnaRPG\bin\x86\Debug\xnaRPG.pdb
+C:\xnaRPG\xnaRPG\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\xnaRPG\xnaRPG\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\xnaRPG\xnaRPG\obj\x86\Debug\xnaRPG.exe
+C:\xnaRPG\xnaRPG\obj\x86\Debug\xnaRPG.pdb

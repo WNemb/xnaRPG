@@ -3,16 +3,26 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xnaRPG", "xnaRPG.csproj", "{B11D9EBB-27EB-4143-8FCD-896C313D18B4}"
 EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "Content1", "..\Content1\Content1.contentproj", "{266C4811-7FC9-4B0B-8650-9C09CE0C7F7C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
 		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B11D9EBB-27EB-4143-8FCD-896C313D18B4}.Debug|Any CPU.ActiveCfg = Debug|x86
 		{B11D9EBB-27EB-4143-8FCD-896C313D18B4}.Debug|x86.ActiveCfg = Debug|x86
 		{B11D9EBB-27EB-4143-8FCD-896C313D18B4}.Debug|x86.Build.0 = Debug|x86
+		{B11D9EBB-27EB-4143-8FCD-896C313D18B4}.Release|Any CPU.ActiveCfg = Release|x86
 		{B11D9EBB-27EB-4143-8FCD-896C313D18B4}.Release|x86.ActiveCfg = Release|x86
 		{B11D9EBB-27EB-4143-8FCD-896C313D18B4}.Release|x86.Build.0 = Release|x86
+		{266C4811-7FC9-4B0B-8650-9C09CE0C7F7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{266C4811-7FC9-4B0B-8650-9C09CE0C7F7C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{266C4811-7FC9-4B0B-8650-9C09CE0C7F7C}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{266C4811-7FC9-4B0B-8650-9C09CE0C7F7C}.Release|x86.ActiveCfg = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
